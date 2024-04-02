@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+article h1 {
+    font-size: 40px;
+}
+p {
+    font-size: 16px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+header { 
+    margin-bottom: 20px;
+}
+header h1 {
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav {
+    padding: 10px 5px;
+    background-color: #6d6d6d;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.navlinks {
+    padding-left: 20px;
+    text-align: left;
+}
+.nav a {
+    margin-right: 10px;
+}
+.menu {
+    right: 20px;
+    display: flex;
+}
+.menu p {
+    margin: 0;
+    padding: 0;
+}
+.link_back {
+    margin-bottom: 100px;
+}
+.back{
+    padding-left: 10px;
+    color: #808080;   
+}
+section {
+    width: 66%;
+    margin: 0 auto;
+}
+article {
+    vertical-align: top;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+    margin-bottom: 50px;
+}
+article h1 {
+    margin: 0;
+    vertical-align: top;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 47.66px;
+    width: 20%;
+}
+.article_img {
+    
+    height: 250px;
+    width: 300px;
+}
+.text_section {
+    
+    width: 30%;
+}
+.text_section p {
+    align-self: stretch; 
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19.07px;
+    
+    text-align: justify;
+}
+.num {
+    color: #fff;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    margin: 0;
+    line-height: 108.95px;
+}
+.text {
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 27.24px;
+}
+.footer_img {
+    background-image: url(img/3.jpg);
+}
+.otst {
+    margin: 0 auto;
+    padding: 100px 150px;
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+}
+.all_footer_text {
+    width: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}

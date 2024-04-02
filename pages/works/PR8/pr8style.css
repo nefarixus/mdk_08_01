@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: orange;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.back a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: orange;
+}
+h1 {
+    text-align: center;
+    color: rgb(134, 87, 0);
+    font-size: 24px;
+}
+h2 {
+    text-align: center;
+    color: rgb(134, 87, 0);
+    font-size: 20px;
+}
+h3 {
+    font-size: 18px;
+}
+p {
+    
+    font-size: 16px;
+}
+a {
+    font-size: 16px;
+}
+.content {
+    border: 1px solid orange;
+    margin: 0 auto;
+    width: 60%;
+    padding: 15px;
+}
+.content header nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 20px;
+}
+.content header nav a:hover {
+    background-color: #fff;
+    color: #000;
+}
+.content section article a {
+    font-weight: bold;
+    text-decoration: none;
+}
+.content section article a:hover {
+    color: rgb(134, 87, 0);
+}
+.content section article p  {
+    text-indent: 50px;
+}
+
+header nav {
+    background-color: orange;
+    display: flex;
+}
+footer nav {
+    padding-top: 30px;
+    text-align: center;
+}
+footer p {
+    text-align: center;
+    
+}
+footer nav {
+    word-spacing: 10px;
+}
+footer nav a {
+    text-decoration: none;
+    color: orange;
+    font-size: 16px;
+}
+footer nav a:hover {
+    color: rgb(134, 87, 0);
+}
