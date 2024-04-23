@@ -201,6 +201,9 @@ button {
     color: #fff;
     width: max-content;
 }
+button a {
+    color: #fff;
+}
 .date {
     position: absolute;
     bottom: 5px;
