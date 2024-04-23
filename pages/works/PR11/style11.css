@@ -15,7 +15,8 @@ header {
     margin-bottom: 20px;
 }
 header h1 {
-    margin-bottom: 5px;
+    margin: 10px 10px;
+    
 }
 .nav {
     padding: 10px 5px;
@@ -29,6 +30,7 @@ header h1 {
     text-align: left;
 }
 .nav a {
+    color: #000;
     margin-right: 10px;
 }
 .menu {
