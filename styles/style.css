@@ -169,11 +169,11 @@ main p a {
 @media screen and (min-width: 480px) and (max-width: 800px) {
     .pic1 {
         height: 100%;
-        width: 368px;
+        width: 184px;
     }
     .pic2 {
         height: 100%;
-        width: 368px;
+        width: 184px;
     }
     footer {
         width: 100%;
