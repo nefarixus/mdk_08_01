@@ -93,6 +93,7 @@ main ol li{
 }
 section {
     display: flex;
+    flex-wrap: wrap;
 }
 section article {
     margin: auto;
@@ -151,3 +152,61 @@ main p a {
 .soderzhanie ol li {
     color: #fff;
 }
+@media screen and (max-width: 480px) {
+    .pic1 {
+        height: 100%;
+        width: 368px;
+    }
+    .pic2 {
+        height: 100%;
+        width: 368px;
+    }
+    footer {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 800px) {
+    .pic1 {
+        height: 100%;
+        width: 368px;
+    }
+    .pic2 {
+        height: 100%;
+        width: 368px;
+    }
+    footer {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 700px) {
+    header h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .navlinks {
+        justify-content: space-around;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        padding: 5px 10px;
+    }
+    .menu {
+        justify-content: space-around;
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+    }
+    footer {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 800px) {
+
+}
+@media screen and (max-width: 800px) {
+
+}
+
+
