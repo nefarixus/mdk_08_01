@@ -16,32 +16,40 @@ header {
     margin-bottom: 20px;
 }
 header h1 {
-    margin: 10px 10px;
-    
+    margin-bottom: 5px;
 }
 .nav {
     padding: 10px 5px;
     background-color: #FFFAFA;
     margin-top: 10px;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
 }
 .navlinks {
     padding-left: 20px;
     text-align: left;
+    display: block;
+    flex-direction: row;
 }
 .nav a {
     color: #000;
+    vertical-align: middle;
+    max-height: max-content;
+    max-width: max-content;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px;
     margin-right: 10px;
 }
 .menu {
+    max-width: max-content;
+    max-height: max-content;
     right: 20px;
     display: flex;
-    
 }
-.menu p {
-    margin: 0;
-    padding: 0;
+.menu a {
+    display: block;
+    text-align: right;
 }
 main {
     max-width: 960px;
@@ -143,9 +151,12 @@ button {
         padding: 5px 10px;
     }
     .menu {
-        justify-content: space-around;
-        text-align: right;
         display: flex;
         flex-direction: column;
+        padding: 5px 10px;
+    }
+    .menu a {
+        margin-left: auto;
+        text-align: right;
     }
 }
