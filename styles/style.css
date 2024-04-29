@@ -290,5 +290,60 @@ main ol {
     }
     footer {
         width: 100%;
+        padding-bottom: 50px;
+    }
+    main h3 {
+        padding: 10px;
+    }
+    .vanish {
+        width: 100%;
+    }
+    .soderzhanie {
+        width: 60%;
+        padding-right: 20px;
+    }
+    main img {
+        width: 100%;
+    }
+    main table img {
+        width: 100%;
+    }
+    main .logform h3 {
+        text-align: center;
+    }
+    main .logform p {
+        padding-left: 0;
+    }
+    main .logform p input{
+        width: 100%;
+    }
+    main .logform button {
+        display: block;
+        margin: 0 auto;
+        max-width: max-content;
+    }
+    main .regform h3 {
+        text-align: center;
+    }
+    main .regform p {
+        padding-left: 0;
+    }
+    main .regform p input {
+        width: 100%;
+    }
+    main .regform p .galochka {
+        width: 5%;
+    }
+    main .regform .buttons {
+        display: block;
+        margin: 0 auto;
+        max-width: max-content;
+        padding: 0;
+    }
+    .mee {
+        margin-left: 10px;
+    }
+    .uspeh {
+        margin-left: 10px;
     }
 }
