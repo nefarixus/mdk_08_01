@@ -252,6 +252,16 @@ main ol {
         flex-direction: column;
         padding: 5px 10px;
     }
+    .menu {
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        padding: 5px 10px;
+    }
+    .menu a {
+        margin-left: auto;
+        text-align: right;
+    }
     p {
         padding: 10px;
     }
@@ -277,16 +287,6 @@ main ol {
     .personal h2 {
         font-size: 20px;
         text-align: center;
-    }
-    .menu {
-        justify-content: space-around;
-        display: flex;
-        flex-direction: column;
-        padding: 5px 10px;
-    }
-    .menu a {
-        margin-left: auto;
-        text-align: right;
     }
     footer {
         width: 100%;

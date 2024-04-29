@@ -15,8 +15,7 @@ header {
     margin-bottom: 20px;
 }
 header h1 {
-    margin: 10px 10px;
-    
+    margin-bottom: 5px;
 }
 .nav {
     padding: 10px 5px;
@@ -28,18 +27,28 @@ header h1 {
 .navlinks {
     padding-left: 20px;
     text-align: left;
+    display: flex;
+    flex-direction: row;
 }
 .nav a {
     color: #000;
+    vertical-align: middle;
+    max-height: max-content;
+    max-width: max-content;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px;
     margin-right: 10px;
 }
 .menu {
+    max-width: max-content;
+    max-height: max-content;
     right: 20px;
     display: flex;
 }
-.menu p {
-    margin: 0;
-    padding: 0;
+.menu a {
+    display: block;
+    text-align: right;
 }
 main {
     width: 100%;
@@ -213,4 +222,27 @@ button a {
 footer {
     margin-bottom: 10px;
     margin-left: 10px;
+}
+@media screen and (max-width: 700px) {
+    header h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .navlinks {
+        justify-content: space-around;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        padding: 5px 10px;
+    }
+    .menu {
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        padding: 5px 10px;
+    }
+    .menu a {
+        margin-left: auto;
+        text-align: right;
+    }
 }
