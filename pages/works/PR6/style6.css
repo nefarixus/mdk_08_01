@@ -8,6 +8,7 @@ html, body {
     padding: 0;
 }
 body {
+    position: relative;
     background-color: #000;
 }
 h1 {
@@ -41,17 +42,26 @@ header h1 {
 .navlinks {
     padding-left: 20px;
     text-align: left;
+    display: flex;
+    flex-direction: row;
 }
 .nav a {
+    vertical-align: middle;
+    max-height: max-content;
+    max-width: max-content;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px;
     margin-right: 10px;
 }
 .menu {
+    max-width: max-content;
+    max-height: max-content;
     right: 20px;
     display: flex;
 }
-.menu p {
-    margin: 0;
-    padding: 0;
+.menu a {
+    text-align: right;
 }
 a {
     text-decoration: none;
@@ -61,6 +71,7 @@ a {
     margin-right: 10px;
 }
 main {
+    
     display: flex;
 }
 main p a {
@@ -90,7 +101,7 @@ aside p {
 }
 footer {
     padding-bottom: 100px;
-    position: relative;
+    
     text-align: center;
     margin: 0 auto;
 }
@@ -108,4 +119,50 @@ footer {
 .footer_img {
     width: 100%;
     max-width: 90px;
+}
+@media screen and (max-width: 700px) {
+    header h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .navlinks {
+        justify-content: space-around;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        padding: 5px 10px;
+    }
+    .menu {
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        padding: 5px 10px;
+    }
+    .menu a {
+        margin-left: auto;
+        text-align: right;
+    }
+    .back {
+        padding-left: 10px;
+    }
+    footer {
+        padding-bottom: 175px;
+    }
+    footer h3 {
+        margin: 15px auto;
+        max-width: max-content;
+    }
+    footer img {
+        display: block;
+        margin: 0 auto;
+    }
+    .footer_text {
+        justify-content: space-around;
+        vertical-align: middle;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_text p {
+        padding: 0;
+    }
 }
