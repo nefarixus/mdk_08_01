@@ -7,6 +7,9 @@ html, body {
     margin: 0;
     padding: 0;
 }
+main {
+    position: relative;
+}
 .container {
     width: 100%;
 }
@@ -67,6 +70,11 @@ main .content section {
     margin-bottom: 20px;
     border: 1px solid black;
 }
+footer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
 @media screen and (max-width: 700px) {
     .content {
         width: 90%;
@@ -82,5 +90,6 @@ main .content section {
     footer {
         text-align: center;
         padding: 10px 5px;
+        width: 100%;
     }
 }

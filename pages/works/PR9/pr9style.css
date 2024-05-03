@@ -60,6 +60,9 @@ header {
 .menu a {
     text-align: right;
 }
+main {
+    position: relative;
+}
 .back {
     color: #808080;
 }
@@ -146,6 +149,14 @@ header {
     height: 25px;
     width: 50px;
 }
+footer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+footer p {
+    color: #fff;
+}
 @media screen and (max-width: 700px) {
     header h1 {
         font-size: 20px;
@@ -169,5 +180,9 @@ header {
     }
     .back {
         padding-left: 10px;
+    }
+    footer {
+        width: 100%;
+        padding-bottom: 50px;
     }
 }

@@ -3,10 +3,11 @@
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 body {
+    
     background-color: #000;
 }
 html {
-    position: relative;
+    
 }
 html, body {
     margin: 0;
@@ -73,6 +74,9 @@ header {
 }
 .menu a {
     text-align: right;
+}
+main {
+    position: relative;
 }
 main a {
     text-decoration: none;
@@ -241,7 +245,6 @@ footer {
     p {
         padding: 10px;
     }
-    
     footer {
         width: 100%;
         text-align: center;

@@ -58,6 +58,7 @@ main {
     display: flex;
     gap: 3%;
     flex-wrap: wrap;
+    position: relative;
 }
 .content {
     
@@ -98,6 +99,11 @@ button {
     border-style: none;
     color: #fff;
 }
+footer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
 @media screen and (min-width: 800px) {
     .content {
         max-width: 100%;
@@ -107,10 +113,18 @@ button {
         max-width: 100%;
         margin: 0 auto;
     }
+    footer {
+        width: 100%;
+        text-align: center;
+    }
 }
 @media screen and (min-width: 480px) and (max-width: 800px) {
     .content {
         background: #f0f0f0;
+    }
+    footer {
+        width: 100%;
+        text-align: center;
     }
 }
 @media screen and (max-width: 800px) {
@@ -128,6 +142,10 @@ button {
         width: 44%;
         padding: 2%;
     }
+    footer {
+        width: 100%;
+        text-align: center;
+    }
 }
 @media screen and (max-width: 480px) {
     .bridge-day {
@@ -137,6 +155,10 @@ button {
         text-align: center;
         width: 96%;
         padding: 4%;
+    }
+    footer {
+        width: 100%;
+        text-align: center;
     }
 }
 @media screen and (max-width: 700px) {
@@ -159,5 +181,9 @@ button {
     .menu a {
         margin-left: auto;
         text-align: right;
+    }
+    footer {
+        width: 100%;
+        text-align: center;
     }
 }

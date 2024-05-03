@@ -78,6 +78,9 @@ main a {
     text-decoration: none;
     color: #808080;
 }
+main {
+    margin-bottom: 50px;
+}
 a {
     text-decoration: none;
     color: rgb(0, 0, 0);

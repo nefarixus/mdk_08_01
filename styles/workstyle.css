@@ -5,9 +5,6 @@
 body {
     background-color: #000;
 }
-html {
-    position: relative;
-}
 html, body {
     margin: 0;
     padding: 0;
@@ -73,6 +70,9 @@ header {
 }
 .menu a {
     text-align: right;
+}
+main {
+    position: relative;
 }
 main a {
     text-decoration: none;

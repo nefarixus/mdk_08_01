@@ -59,6 +59,9 @@ header {
 .menu a {
     text-align: right;
 }
+main {
+    position: relative;
+}
 .back {
     color: #808080;
 }
@@ -138,6 +141,11 @@ a {
 hr {
     border-color: #808080;
 }
+footer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
 @media screen and (max-width: 700px) {
     header h1 {
         font-size: 20px;
@@ -162,5 +170,9 @@ hr {
     }
     .back {
         padding-left: 10px;
+    }
+    footer {
+        width: 100%;
+        text-align: center;
     }
 }
