@@ -1,0 +1,354 @@
+* {
+    color: #fff;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+body {
+    background-color: #000;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    
+}
+.pfp {
+    max-height: 100%;
+    height: 540px;
+    max-width: 100%;
+}
+h1 {
+    font-size: 24px;
+}
+h2 {
+    font-size: 20px;
+}
+h3 {
+    font-size: 18px;
+}
+p {
+    font-size: 16px;
+}
+a {
+    font-size: 16px;
+}
+.top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(151, 230, 151, 0.3);
+    padding: 10px;
+}
+header { 
+    margin-bottom: 20px;
+}
+.nav {
+    padding: 10px 5px;
+    background-color: #FFFAFA;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.navlinks {
+    padding-left: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+.nav a {
+    vertical-align: middle;
+    max-height: max-content;
+    max-width: max-content;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 10px;
+}
+.menu {
+    max-width: max-content;
+    max-height: max-content;
+    right: 20px;
+    display: flex;
+}
+.menu a {
+    text-align: right;
+}
+main {
+    position: relative;
+}
+main a {
+    text-decoration: none;
+    color: #808080;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+article img {
+    max-height: 50%;
+    height: 368px;
+}
+article p a {
+    color: #808080;
+}
+main ol li{
+    color: #fff;
+}
+.main_h2 {
+    text-align: center;
+}
+.main1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main1 article {
+    margin: 0 auto;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+section article {
+    margin: auto;
+}
+.pic1 {
+    max-height: 25%;
+    height: 368px;
+}
+.pic2 {
+    max-height: 25%;
+    height: 368px;
+}
+.login {
+    margin-right: 10px;
+}
+.logform form button a{
+    color: #000;
+}
+.logform form input{
+    color: #000;
+}
+.logform p a{
+    color: #808080;
+}
+.regform form p input{
+    color: #000;
+}
+.regform p a{
+    color: #808080;
+}
+.backlog {
+    color: #808080;
+}
+.return p a{
+    color: #808080;
+}
+main p a {
+    color: #808080;
+}
+main ol {
+    margin: 0 auto;
+}
+.vanish {
+    background-color: #fff;
+}
+.praktika {
+    color: #808080;
+}
+.soderzhanie {
+    background-color: #808080;
+    width: 20%;
+}
+.soderzhanie h2 a {
+    color: #fff;
+}
+.soderzhanie ol li a {
+    color: #fff;
+}
+.soderzhanie ol li {
+    color: #fff;
+}
+footer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@media screen and (max-width: 480px) {
+    .main1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    main h2 {
+        text-align: center;
+    }
+    .pic1 {
+        height: 100%;
+        width: 368px;
+    }
+    .pic2 {
+        height: 100%;
+        width: 368px;
+    }
+    .pfp {
+        max-height: 700px;
+        height: 100%;
+        max-width: 700px;
+        width: 100%;
+    }
+    p {
+        padding: 10px;
+    }
+    main ol {
+        max-width: max-content;
+        margin: 0 auto;
+    }
+    .menu {
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        padding: 5px 10px;
+    }
+    .menu a {
+        margin-left: auto;
+        text-align: right;
+    }
+    .personal h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    footer {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 900px) {
+    .pic1 {
+        height: 100%;
+        width: 368px;
+    }
+    .pic2 {
+        height: 100%;
+        width: 368px;
+    }
+    .main1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    p {
+        padding: 10px;
+    }
+    
+    footer {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 700px) {
+    header h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .navlinks {
+        justify-content: space-around;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        padding: 5px 10px;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        padding: 5px 10px;
+    }
+    .menu a {
+        margin-left: auto;
+        text-align: right;
+    }
+    p {
+        padding: 10px;
+    }
+    main ol {
+        max-width: max-content;
+        margin: 0 auto;
+    }
+    .pfp {
+        max-height: 700px;
+        height: 100%;
+        max-width: 700px;
+        width: 100%;
+    }
+    .main1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    main h2 {
+        text-align: center;
+    }
+    .personal h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    footer {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    main h3 {
+        padding: 10px;
+    }
+    .vanish {
+        width: 100%;
+    }
+    .soderzhanie {
+        width: 60%;
+        padding-right: 20px;
+    }
+    main img {
+        width: 100%;
+    }
+    main table img {
+        width: 100%;
+    }
+    main .logform h3 {
+        text-align: center;
+    }
+    main .logform p {
+        padding-left: 0;
+    }
+    main .logform p input{
+        width: 100%;
+    }
+    main .logform button {
+        display: block;
+        margin: 0 auto;
+        max-width: max-content;
+    }
+    main .regform h3 {
+        text-align: center;
+    }
+    main .regform p {
+        padding-left: 0;
+    }
+    main .regform p input {
+        width: 100%;
+    }
+    main .regform p .galochka {
+        width: 5%;
+    }
+    main .regform .buttons {
+        display: block;
+        margin: 0 auto;
+        max-width: max-content;
+        padding: 0;
+    }
+    .mee {
+        margin-left: 10px;
+    }
+    .uspeh {
+        margin-left: 10px;
+    }
+}
