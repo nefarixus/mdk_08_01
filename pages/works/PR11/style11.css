@@ -15,11 +15,13 @@ header {
     margin-bottom: 20px;
 }
 header h1 {
-    margin-bottom: 5px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin: 5px 0;
+    font-size: 24px;
 }
 .nav {
     padding: 10px 5px;
-    background-color: #FFFAFA;
+    background-color: #dfd0d0;
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
@@ -31,7 +33,6 @@ header h1 {
     flex-direction: row;
 }
 .nav a {
-    color: #000;
     vertical-align: middle;
     max-height: max-content;
     max-width: max-content;
@@ -47,18 +48,16 @@ header h1 {
     display: flex;
 }
 .menu a {
-    display: block;
     text-align: right;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 main {
     width: 100%;
     margin: 0 auto;
 }
-
-a {
-    text-decoration: none;
-}
-
 p {
     font-size: 16px;
     flex-wrap: wrap;

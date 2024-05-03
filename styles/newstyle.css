@@ -1,6 +1,7 @@
 * {
     color: #fff;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    box-sizing: border-box;
 }
 body {
     background-color: #000;
@@ -8,11 +9,6 @@ body {
 html, body {
     margin: 0;
     padding: 0;
-}
-.pfp {
-    max-height: 100%;
-    height: 540px;
-    max-width: 100%;
 }
 h1 {
     font-size: 24px;
@@ -28,13 +24,6 @@ p {
 }
 a {
     font-size: 16px;
-}
-.top {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    background: rgba(151, 230, 151, 0.3);
-    padding: 10px;
 }
 header { 
     margin-bottom: 20px;
@@ -70,6 +59,13 @@ header {
 .menu a {
     text-align: right;
 }
+main {
+    position: relative;
+    width: 100%;
+}
+.content {
+    display: flex;
+}
 main a {
     text-decoration: none;
     color: #808080;
@@ -78,20 +74,36 @@ a {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-article img {
+article .img {
     max-height: 50%;
     height: 368px;
 }
+.img1 {
+    background: url(../img/1.png);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+}
+.img2 {
+    background: url(../img/2.jpg);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+}
+.img3 {
+    background: url(../img/3.jpg);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+}
 article p a {
     color: #808080;
-}
-main ol li{
-    color: #fff;
 }
 .main_h2 {
     text-align: center;
 }
 .main1 {
+    width: 85%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -99,69 +111,24 @@ main ol li{
 .main1 article {
     margin: 0 auto;
 }
-section {
+aside {
+    margin: auto auto;
+    height: 100%;
+    align-items: center;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    width: 10%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
-section article {
-    margin: auto;
+aside hr {
+    width: 100%;
 }
-.pic1 {
-    max-height: 25%;
-    height: 368px;
-}
-.pic2 {
-    max-height: 25%;
-    height: 368px;
-}
-.login {
-    margin-right: 10px;
-}
-.logform form button a{
-    color: #000;
-}
-.logform form input{
-    color: #000;
-}
-.logform p a{
-    color: #808080;
-}
-.regform form p input{
-    color: #000;
-}
-.regform p a{
-    color: #808080;
-}
-.backlog {
-    color: #808080;
-}
-.return p a{
-    color: #808080;
-}
-main p a {
-    color: #808080;
-}
-main ol {
-    margin: 0 auto;
-}
-.vanish {
-    background-color: #fff;
-}
-.praktika {
-    color: #808080;
-}
-.soderzhanie {
-    background-color: #808080;
-    width: 20%;
-}
-.soderzhanie h2 a {
-    color: #fff;
-}
-.soderzhanie ol li a {
-    color: #fff;
-}
-.soderzhanie ol li {
-    color: #fff;
+footer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
 }
 @media screen and (max-width: 480px) {
     .main1 {
