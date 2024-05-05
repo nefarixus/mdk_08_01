@@ -85,77 +85,17 @@ a {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-article img {
-    max-height: 50%;
-    height: 368px;
-}
-article p a {
-    color: #808080;
+.vanish {
+    background: #fff;
 }
 main ol li{
     color: #fff;
-}
-.main_h2 {
-    text-align: center;
-}
-.main1 {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.main1 article {
-    margin: 0 auto;
-}
-section {
-    display: flex;
-    flex-wrap: wrap;
-}
-section article {
-    margin: auto;
-}
-.pic1 {
-    max-height: 25%;
-    height: 368px;
-}
-.pic2 {
-    max-height: 25%;
-    height: 368px;
-}
-.login {
-    margin-right: 10px;
-}
-.logform form button a{
-    color: #000;
-}
-.logform form input{
-    color: #000;
-}
-.logform p a{
-    color: #808080;
-}
-.regform form p input{
-    color: #000;
-}
-.regform p a{
-    color: #808080;
-}
-.backlog {
-    color: #808080;
-}
-.return p a{
-    color: #808080;
 }
 main p a {
     color: #808080;
 }
 main ol {
     margin: 0 auto;
-}
-.vanish {
-    background-color: #fff;
-}
-.praktika {
-    color: #808080;
 }
 .soderzhanie {
     background-color: #808080;
