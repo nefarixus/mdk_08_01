@@ -249,36 +249,3 @@ footer p {
         transform: scale(1, 1);
     }
 }
-/*
-1 задание 
-
-button {
-  padding: 1rem 2rem;
-  color: #fff;
-  border: none;
-  background: #00a7cf;
-  transition: 1s;
-}
-button:hover {
-  background: #006680;
-}
-
-2 задание 
-
-button {
-  padding: 1rem 2rem;
-  background: #00a7cf;
-  color: #fff;
-  border: none;
-  transition: 1s;
-}
-button:hover { 
-    transform: scale(2, 2);
-}
-
-3 задание 
-
- scale{
-    transform: scale(1);
-}
-*/
