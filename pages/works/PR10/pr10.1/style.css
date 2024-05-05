@@ -1,19 +1,15 @@
-@font-face {
-    font-family: RobotoRegular;
-    src: url(./font/Roboto-Regular.ttf);
-}
-html {
-    position: relative;
+* {
+    box-sizing: border-box;
+    font-weight: 300;
+    font-style: normal;
 }
 html, body {
     margin: 0;
     padding: 0;
 }
-h1 {
-    font-size: 24px;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-}
-p {
+main p {
+    margin-top: 10px;
+    margin-left: 20px;
     font-size: 16px;
 }
 a {
@@ -21,63 +17,64 @@ a {
     color: rgb(0, 0, 0);
     font-size: 16px;
 }
-header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-main {
-    padding-bottom: 20px;
-    margin: 0 auto;
-    width: 90%;
-}
-main p {
-    margin-bottom: 40px;
-}
 .back {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
     color: #808080;
 }
 section {
-    margin: 0 auto;
+    padding-top: 35px;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     justify-content: center;
-    max-width: max-content;
 }
-article{
+article {
     width: 622px;
-    border-radius: 10px;
-    padding: 72px 0 54px 67px;
+    color: white;
+    padding: 72px 0 55px 67px;
     margin-bottom: 30px;
+    border-radius: 10px;
+}
+article:nth-child(1) {
+    background:linear-gradient(75.91deg, rgba(50, 34, 67, 0.8) 15.12%, rgba(50, 34, 67, 0) 95.53%), url(img/1.jpg);
+    background-size: cover;
+}
+article:nth-child(2) {
+    background:linear-gradient(75.91deg, rgba(50, 34, 67, 0.8) 15.12%, rgba(50, 34, 67, 0) 95.53%), url(img/2.jpg);
+    background-size: cover;
+}
+article:nth-child(3) {
+    background:linear-gradient(75.91deg, rgba(50, 34, 67, 0.8) 15.12%, rgba(50, 34, 67, 0) 95.53%), url(img/3.jpg);
+    background-size: cover;
+}
+article:nth-child(4) {
+    background:linear-gradient(75.91deg, rgba(50, 34, 67, 0.8) 15.12%, rgba(50, 34, 67, 0) 95.53%), url(img/4.jpg);
+    background-size: cover;
+}
+article:nth-child(2n-1) {
+    margin-right: 30px;
+}
+article h3, article button {
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
 }
 article p {
     width: 310px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     margin: 11px 0 30px 0;
-}
-article h3, article button {
-    font-family: RobotoRegular;
-    text-transform: uppercase;
 }
 article h3 {
     font-size: 36px;
     line-height: 42px;
 }
 article .price {
-    font-family: RobotoRegular;
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 24px;
 }
 .price span {
     font-size: 48px;
     color: #df59ca;
     font-weight: bold;
-}
-article button {
-    font-size: 18px;
-}
-h3, p {
-    margin: 0;
 }
 article button {
     font-size: 18px;
@@ -90,39 +87,13 @@ article button {
 }
 article button:hover {
     font-size: 18px;
-    background: #fff;
+    background: white;
     border: 0;
     padding: 19px 38px;
     border-radius: 3px;
     color: #f26689;
     cursor: pointer;
 }
-article:nth-child(1) {
-    background: linear-gradient(75.91deg, rgba(50, 34, 67, 0.8) 15.12%, rgba(50, 34, 67, 0) 95.53%), url(img/1.jpg);
-    background-size: cover;
-}
-article:nth-child(2) {
-    background: linear-gradient(75.91deg, rgba(50, 34, 67, 0.8) 15.12%, rgba(50, 34, 67, 0) 95.53%), url(img/2.jpg);
-    background-size: cover;
-}
-article:nth-child(3) {
-    background:  linear-gradient(75.91deg, rgba(50, 34, 67, 0.8) 15.12%, rgba(50, 34, 67, 0) 95.53%), url(img/3.jpg);
-    background-size: cover;
-}
-article:nth-child(4) {
-    background: linear-gradient(75.91deg, rgba(50, 34, 67, 0.8) 15.12%, rgba(50, 34, 67, 0) 95.53%), url(img/4.jpg);
-    background-size: cover;
-}
-article:nth-child(2n-1) {
-    margin-right: 30px;
-}
-footer {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 0;
-    padding-bottom: 10px;
-}
-footer p {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+h3, p {
+    margin: 0;
 }
