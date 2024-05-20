@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style16.css">
+    <title>TakeMe</title>
+</head>
+
+<body>
+    <header>
+        <div class="header_inner">
+            <div class="logo">
+                <a href="../work.html">TakeMe</a>
+            </div>
+            <div class="menu">
+                <nav class="nav">
+                    <a href="#">Locations</a>
+                    <a href="#">Accommodation</a>
+                    <a href="#">Travel Guides</a>
+                    <a href="#">Where To Stay</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Log In</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            <div class="background_image">
+                <div class="text">
+                    <p class="title">Find Your Dream Vacation Location</p>
+                    <p class="description">Search hundreds of locations from around the world and find your perfect
+                        vacation location.</p>
+                </div>
+                <form action="" method="post">
+                    <input placeholder="Country or ZIP code" type="text" name="location" class="location">
+                    <input placeholder="Transportation" list="transportation" name="transportation"
+                        class="transportation">
+                    <datalist id="transportation">
+                        <option value="Magical Paris"></option>
+                        <option value="Classic London"></option>
+                        <option value="Famous New York"></option>
+                        <option value="Sea Voyagers"></option>
+                        <option value="Mountain Climbs"></option>
+                        <option value="Quad Rides"></option>
+                    </datalist>
+                    <input placeholder="Number of people" type="text" name="number" class="number">
+                    <a href="#"><button>Search</button></a>
+                </form>
+            </div>
+            <div class="tariffs_1">
+                <div class="tariffs_content">
+                    <a href="#" class="card">
+                        <img src="imgs/paris.png" alt="">
+                        <p class="tariff_title">Magical Paris</p>
+                        <p class="tariff_info">City of light, one of the most famous cities in the world is waiting to be explored. Some of the most famous museums, food and landmarks are waiting for you in Paris.</p>
+                        <div class="rating">
+                            <div class="stars"></div>
+                            <p>2436 Ratings</p>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <img src="imgs/london.png" alt="">
+                        <p class="tariff_title">Classic London</p>
+                        <p class="tariff_info">City of history, one of the most famous cities in the world is waiting to be explored. Some of the most famous museums, food, pubs and landmarks are waiting for you in London.</p>
+                        <div class="rating">
+                            <div class="stars"></div>
+                            <p>5438 Ratings</p>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <img src="imgs/new_york.png" alt="">
+                        <p class="tariff_title">Famous New York</p>
+                        <p class="tariff_info">City of fashion and yellow cabs, one of the most famous cities in the world is waiting to be explored. Some of the most famous museums, food and landmarks are waiting for you in New York.</p>
+                        <div class="rating">
+                            <div class="stars"></div>
+                            <p>1243 Ratings</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="tariffs_2">
+                <a href="" class="arrow"><img class="left" src="imgs/left.png" alt=""></a>
+                <a class="tariffs_2_bg bg1" href="#">
+                    <img src="imgs/stars_2.png" class="tariffs_2_stars"></img>
+                    <p class="visited">126 Visited</p>
+                    <p class="guides">Professional Guides</p>
+                    <p class="tariffs_2_title">Sea Voyages</p>
+                </a>
+                <a class="tariffs_2_bg bg2" href="#">
+                    <img src="imgs/stars_2.png" class="tariffs_2_stars"></img>
+                    <p class="visited">241 Visited</p>
+                    <p class="guides">Safe Guides</p>
+                    <p class="tariffs_2_title">Mountain Climbs</p>
+                </a>
+                <a class="tariffs_2_bg bg3" href="#">
+                    <img src="imgs/stars_2.png" class="tariffs_2_stars"></img>
+                    <p class="visited">296 Visited</p>
+                    <p class="guides">Expert Drivers</p>
+                    <p class="tariffs_2_title">Quad Rides</p>
+                </a>
+                <a class="arrow" href=""><img class="right" src="imgs/right.png" alt=""></a>
+            </div>
+            <div class="subscribe">
+                <div class="sub_content">
+                    <div class="sub_text">
+                        <p class="sub_upper">Subscribe to our newsletter</p>
+                        <p class="sub_down">And receive all the latest news, discounts and updates about the most visited locations from around the globe, daily.</p>
+                    </div>
+                    <a href="#"><button>Subscribe</button></a>
+                </div>
+            </div>
+            <div class="contact_us">
+                <div class="contact_us_content">
+                    <p>Contact Us</p>
+                    <form action="" method="post">
+                        <div class="pole">
+                            <p>First Name</p>
+                            <input type="text" name="first_name" placeholder="First Name" class="first_name">
+                        </div>
+                        <div class="pole">
+                            <p>Last Name</p>
+                            <input type="text" name="last_name" placeholder="Last Name" class="last_name">
+                        </div>
+                        <div class="pole">
+                            <p>Email</p>
+                            <input type="email" name="email" placeholder="Email" class="email">
+                        </div>
+                        <div class="pole">
+                            <p>Phone</p>
+                            <input type="text" name="phone" placeholder="Phone" class="phone">
+                        </div>
+                        <div class="pole">
+                            <p>message</p>
+                            <textarea name="message" placeholder="Your message" class="message"></textarea>
+                        </div>
+                        <a class="button_send" href=""><button>Send</button></a>
+                    </form>
+                    <img src="imgs/budka.png" alt="">
+                </div>
+            </div>
+            <div class="main_footer">
+                <div class="main_footer_content">
+                    <div class="footer_inner">
+                        <div class="links">
+                            <a href="#" class="main_a">Company</a>
+                            <a href="#" class="second_a">Careers</a>
+                            <a href="#" class="second_a">About Us</a>
+                            <a href="#" class="second_a">Contact Us</a>
+                            <a href="#" class="second_a">Affiliates</a>
+                            <a href="#" class="second_a">News</a>
+                            <a href="#" class="second_a">Our App</a>
+                            <a href="#" class="second_a">Site Map</a>
+                        </div>
+                        <div class="links">
+                            <a href="#" class="main_a">Useful Links</a>
+                            <a href="#" class="second_a">Travel Safe</a>
+                            <a href="#" class="second_a">Stay Healthy</a>
+                            <a href="#" class="second_a">Flight Monitor</a>
+                            <a href="#" class="second_a">Booking List</a>
+                            <a href="#" class="second_a">Lost Lugage</a>
+                            <a href="#" class="second_a">World Clock</a>
+                        </div>
+                        <div class="links">
+                            <a href="#" class="main_a">For Companies</a>
+                            <a href="#" class="second_a">Advertise With Us</a>
+                            <a href="#" class="second_a">How It Works</a>
+                            <a href="#" class="second_a">Pricing Models</a>
+                            <a href="#" class="second_a">VAT Numbers</a>
+                        </div>
+                    </div>
+                    <aside>
+                        <p>Stay in Touch</p>
+                        <form class="last_form" action="" method="post">
+                            <input type="email" placeholder="Your Email" name="email2" class="email2">
+                            <a href="#"><button>Subscribe</button></a>
+                        </form>
+                        <div class="social_networks">
+                            <a class="block"><img src="imgs/twitter.png" alt="" class="block1"></a>
+                            <a class="block"><img src="imgs/instagram.png" alt="" class="block2"></a>
+                            <a class="block"><img src="imgs/facebook.png" alt="" class="block3"></a>
+                            <a class="block"><img src="imgs/googleplus.png" alt="" class="block4"></a>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_ender">
+            <p>© 2017 TakeMe Free UI Kit</p>
+            <nav class="last_nav">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Cookies Policy</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
