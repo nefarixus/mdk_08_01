@@ -510,6 +510,13 @@ form button a {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
 }
+.second_a:hover {
+    line-height: 20px;
+    color: #000000;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
 hr {
     margin: 0;
     border: 1px solid #e2e2e2;
@@ -583,7 +590,6 @@ footer {
     background: #f6f6f6;
 }
 .footer_ender {
-    
     width: 80%;
     display: flex;
     margin: 0 auto;
