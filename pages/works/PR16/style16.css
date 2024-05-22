@@ -160,6 +160,12 @@ form button a {
     display: flex;
     flex-direction: column;
 }
+.card:hover .rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 1;
+}
 .card img {
     width: 371px;
     height: 260px;
@@ -170,6 +176,8 @@ form button a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    opacity: 0;
+    transition: .5s;
 }
 .rating .stars {
     background: url(imgs/stars.png);
