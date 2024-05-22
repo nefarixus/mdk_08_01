@@ -614,3 +614,9 @@ footer {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
 }
+.last_nav a:hover {
+    color: #000000;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
