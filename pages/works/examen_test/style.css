@@ -10,12 +10,23 @@ a {
     text-decoration: none;
 }
 .header_inner {
+    position: relative;
     background-color: #F0F0F0;
+}
+.header_bg_ellipse_2 {
+    background: url(imgs/ellipse_3.svg);
+    height: 195px;
+    width: 195px;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: -70px;
+    bottom: -70px;
+    overflow: hidden;
+    z-index: 0;
 }
 .header_background {
     margin: 0 auto;
     background: url(imgs/background_start.png);
-    position: relative;
     width: 80%;
     height: 758px;
     background-repeat: no-repeat;
@@ -51,13 +62,13 @@ a {
     height: 195px;
     width: 195px;
     position: absolute;
-    margin-top: 190px;
-    margin-right: 13px;
+    margin-top: 210px;
+    margin-right: 200px;
     background-repeat: no-repeat;
     right: 0;
     top: 0;
-    z-index: 0;
 }
+
 .skype {
     width: 40px;
     height: 40px;
