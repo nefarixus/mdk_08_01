@@ -22,7 +22,6 @@ a {
     right: -70px;
     bottom: -70px;
     overflow: hidden;
-    z-index: 0;
 }
 .header_background {
     margin: 0 auto;
@@ -50,6 +49,14 @@ a {
     font-size: 18px;
     font-weight: 600;
     line-height: normal;
+    border-bottom: 3px solid rgba(0, 0, 0, 0);
+    transition: .5s;
+}
+.nav a:hover {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    border-bottom: 3px solid rgba(0, 0, 0, 1);
 }
 .header_main_info {
     padding-right: 80px;
@@ -110,17 +117,20 @@ a {
     border: 1px solid #488AEA;
 }
 .links_social {
+    position: relative;
     max-height: max-content;
     max-width: max-content;
     display: flex;
     gap: 15px;
 }
 .name {
+    position: relative;
     font-size: 72px;
     font-weight: 600;
     line-height: 93.9%;
 }
 .who {
+    position: relative;
     font-size: 16px;
     font-weight: 400;
     line-height: normal;
@@ -147,13 +157,31 @@ a {
 }
 .button_link_1 {
     align-items: center;
+    transition: .5s;
 }
 .header_buttons button {
+    border: 1px solid rgba(242, 138, 99, 0);
+    box-shadow: 0em 5px 5px rgba(0, 0, 0, 0.3);
     background: #F28A63;
     border-radius: 50px;
-    border: 0;
     padding: 10px 20px;
     color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 105.187%;
+    cursor: pointer;
+    transition: .5s;
+}
+.header_buttons button:hover .button_link_1 {
+    color: #F28A63;
+}
+.header_buttons button:hover {
+    border: 1px solid rgba(242, 138, 99, 1);
+    box-shadow: 0em 5px 5px rgba(0, 0, 0, 0.3);
+    background: #ffffff;
+    border-radius: 50px;
+    padding: 10px 20px;
     text-align: center;
     font-size: 18px;
     font-weight: 500;
@@ -165,6 +193,20 @@ a {
     display: flex;
     gap: 10px;
     align-items: center;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: .5s;
+}
+.questions:hover {
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 1);
 }
 .questions p {
     font-size: 16px;
